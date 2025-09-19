@@ -48,11 +48,17 @@ cd ~/ur_ws/src
 
 # UR descriptions and Gazebo sim
 git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+git -C Universal_Robots_ROS2_Description checkout 17017356c7599b1b550a8a716fb60649fe6fb9e5
+
 git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git
+git -C Universal_Robots_ROS2_Gazebo_Simulation checkout 93b25c6aae7efd4845633cd01f45403a2cc592e6
+
 git clone https://github.com/IFRA-Cranfield/IFRA_LinkAttacher.git
+git -C IFRA_LinkAttacher checkout b056289ba93ccb549db98926dcbb9679642d0c8d
 
 # Robotiq gripper (ROS 2)
 git clone https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+git -C ros2_robotiq_gripper checkout e5656b1c1926864899dfb133dc68d483cfb1d9cc
 
 # MoveIt config (separate repo)
 git clone https://github.com/LearnRoboticsWROS/ur5_camera_moveit_config.git
