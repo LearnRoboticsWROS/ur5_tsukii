@@ -26,6 +26,7 @@ sudo apt update && sudo apt install -y \
   ros-humble-xacro ros-humble-joint-state-publisher-gui \
   mesa-utils libgl1-mesa-dri libxkbcommon0 \
   ros-humble-ros2-control ros-humble-ros2-controllers \
+  ros-humble-gazebo-ros2-control \
   ros-humble-realtime-tools ros-humble-control-toolbox ros-humble-control-msgs
 ```
 
